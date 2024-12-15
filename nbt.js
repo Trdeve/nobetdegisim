@@ -2,7 +2,7 @@ const express = require('express');
 const ExcelJS = require('exceljs');
 const app = express();
 const PORT = 3000;
-const FILE_PATH = 'veriler.xlsx'; // Excel dosyası yolu
+const FILE_PATH = 'https://github.com/Trdeve/nobetdegisim/blob/main/veriler.xlsx'; // Excel dosyası yolu
 
 app.use(express.json());
 
